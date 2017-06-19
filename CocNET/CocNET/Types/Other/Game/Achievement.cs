@@ -1,9 +1,4 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace CocNET.Types.Other.Game
 {
@@ -19,5 +14,7 @@ namespace CocNET.Types.Other.Game
         public int Target { get; set; }
         [JsonProperty("completionInfo")]
         public string CompletionInfo { get; set; }
+        [JsonProperty("village")]
+        public string Village { get; set; }
     }
 }
