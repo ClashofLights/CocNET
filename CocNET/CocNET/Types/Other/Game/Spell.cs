@@ -1,9 +1,4 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace CocNET.Types.Other.Game
 {
@@ -15,5 +10,7 @@ namespace CocNET.Types.Other.Game
         public int Level { get; set; }
         [JsonProperty("maxLevel")]
         public int MaxLevel { get; set; }
+        [JsonProperty("village")]
+        public string Village { get; set; }
     }
 }
